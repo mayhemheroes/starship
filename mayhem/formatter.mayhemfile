@@ -1,0 +1,7 @@
+project: starship
+target: formatter
+
+cmds:
+  - cmd: /formatter
+  - cmd: /formatter_no_inst @@
+    libfuzzer: false
